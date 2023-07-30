@@ -5,7 +5,7 @@
 #
 ######################################
 THECLOUD_VERSION = 0.1
-THECLOUD_SITE = $(call github,sensorium,thecloud.lv2,$(THECLOUD_VERSION))
+THECLOUD_SITE = $(call github,sensorium,sensorium-plugins,thecloud.lv2,$(THECLOUD_VERSION))
 THECLOUD_BUNDLES = thecloud.lv2
 
 THECLOUD_TARGET_MAKE = $(TARGET_MAKE_ENV) $(TARGET_CONFIGURE_OPTS) $(MAKE) MOD=1 OPTIMIZATIONS="" PREFIX=/usr -C $(@D)
