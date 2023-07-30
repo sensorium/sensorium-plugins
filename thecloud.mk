@@ -4,7 +4,7 @@
 # thecloud
 #
 ######################################
-THECLOUD_VERSION = 0.1
+THECLOUD_VERSION = 0d9c4608d39aa8efe5f9f7986b8db91276e9257a    # Use a commit tag (eg. release version) or a full commit ID (find with "git log" in cli)
 THECLOUD_SITE = $(call github,sensorium,sensorium-plugins,thecloud.lv2,$(THECLOUD_VERSION))
 THECLOUD_BUNDLES = thecloud.lv2
 
