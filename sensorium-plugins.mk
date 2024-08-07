@@ -4,7 +4,7 @@
 # SENSORIUM_PLUGINS
 #
 ######################################
-SENSORIUM_PLUGINS_VERSION = 07f8e949d92ba3c6ff9f773eaadda2797ff9a730    # Use a commit tag (eg. release version) or a full commit ID (find with "git log" in cli)
+SENSORIUM_PLUGINS_VERSION = db5751dc4fc71ba84865f9000885c834b5c517f7    # Use a commit tag (eg. release version) or a full commit ID (find with "git log" in cli)
 SENSORIUM_PLUGINS_SITE = $(call github,sensorium,sensorium-plugins,thecloud.lv2,$(SENSORIUM_PLUGINS_VERSION))
 SENSORIUM_PLUGINS_BUNDLES = thecloud.lv2
 
