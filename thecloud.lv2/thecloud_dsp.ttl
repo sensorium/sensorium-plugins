@@ -122,13 +122,13 @@
         lv2:maximum 1 ;
     ] ;
 
-    rdfs:comment "Rename Me" ;
+    rdfs:comment "Testing" ;
 
     doap:name "thecloud" ;
     doap:license <http://spdx.org/licenses/ISC.html> ;
 
     doap:maintainer [
-        foaf:name "Wasted Audio" ;
+        foaf:name "sensorium" ;
     ] ;
 
     lv2:microVersion 1 ;

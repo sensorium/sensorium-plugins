@@ -1,16 +1,15 @@
 /* BOX */
-
 .mod-cloud-box{{{cns}}} {
     border-radius: 20px;
 }
 
-.mod-cloud-box-0650{{{cns}}} {
-    background-image: url(/resources/box/thecloudscratch650x439.png{{{ns}}});
+.mod-cloud-box-0500{{{cns}}} {
+    background-image: url(/resources/box/thecloudcondense500x520.png{{{ns}}});
     background-position: center center;
     background-repeat: no-repeat;
-    height: 439px;
+    height: 520px;
     position: relative;
-    width: 650px;
+    width: 500px;
 }
 
 /* CONTROLS */
@@ -50,7 +49,7 @@
     left:10px;
     position:absolute;
     right:10px;
-    top:180px;
+    top:320px;
 }
 
 
@@ -62,7 +61,7 @@
     background-repeat:no-repeat;
     background-size:auto 132px;
     bottom: 95px;
-    top:135px;
+    top:400px;
     left: 13px;
     right: 13px;
     cursor:pointer;

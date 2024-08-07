@@ -1,0 +1,15 @@
+Checks: >
+  *,
+  -*-magic-numbers,
+  -*-uppercase-literal-suffix,
+  -altera*,
+  -bugprone-suspicious-include,
+  -google-runtime-references,
+  -hicpp-multiway-paths-covered,
+  -hicpp-signed-bitwise,
+  -llvm-header-guard,
+  -llvmlibc-*,
+  -modernize-use-trailing-return-type,
+  -readability-function-cognitive-complexity,
+FormatStyle: file
+HeaderFilterRegex: 'pugl/.*|test/.*'

@@ -1,0 +1,10 @@
+Checks: >
+  *,
+  -*-magic-numbers,
+  -*-uppercase-literal-suffix,
+  -altera*,
+  -clang-diagnostic-unused-function,
+  -clang-diagnostic-unused-macros,
+  -llvmlibc-*,
+FormatStyle: file
+HeaderFilterRegex: 'pugl/.*'
