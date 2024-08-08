@@ -1,7 +1,5 @@
 # thecloud.lv2
 
-Work in Progress!  It's only public so I can test a web based makefile.
-
 The Cloud is a particle delay plugin for Mod devices (only tested on a Dwarf).
 It creates a shifting cloud of echoes which fly into hearing range and out again.
 You can control how long the echo particles last, how spread out they are in time and where they are in stereo space.
