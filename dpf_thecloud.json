@@ -1,0 +1,14 @@
+{
+    "dpf": {
+        "project": true,
+        "description": "PUREDATA Granular Delay test patch",
+        "maker": "sensorium",
+        "homepage": "",
+        "plugin_uri": "lv2://sensorium.audio/lv2/dpf_thecloud",
+        "version": "0,0,1",
+        "license": "WTFPL",
+        "midi_input": 1,
+        "midi_output": 0,
+        "plugin_formats": ["lv2_dsp","vst","jack"]
+    }
+}
