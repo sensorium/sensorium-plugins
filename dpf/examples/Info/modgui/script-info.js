@@ -27,7 +27,7 @@ function (event) {
                 var secs =  time % 60;
                 var mins = (time / 60) % 60;
                 var hrs  = (time / 3600) % 60;
-                event.icon.find('[mod-role=time_frame_s]').text(sprintf("%02d:%02d:%02d", hrs, mins, secs));
+                event.icon.find('[role=time_frame_s]').text(sprintf("%02d:%02d:%02d", hrs, mins, secs));
                 // fall-through
             }
             default:
@@ -35,7 +35,7 @@ function (event) {
                 break;
         }
 
-        event.icon.find('[mod-role='+symbol+']').text(value);
+        event.icon.find('[role='+symbol+']').text(value);
     }
 
     if (event.type == 'start') {
@@ -47,8 +47,8 @@ function (event) {
             handle_event (ports[p].symbol, ports[p].value);
         }
         // special cases
-        event.icon.find ('[mod-role=sample_rate]').text(SAMPLERATE);
-        event.icon.find ('.mod-magic').click(magic);
+        event.icon.find ('[role=sample_rate]').text(SAMPLERATE);
+        event.icon.find ('.magic').click(magic);
     }
     else if (event.type == 'change') {
         handle_event (event.symbol, event.value);

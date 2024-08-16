@@ -39,7 +39,7 @@
 #include "lv2/lv2_programs.h"
 
 #ifdef DISTRHO_PLUGIN_LICENSED_FOR_MOD
-# include "mod-license.h"
+# include "license.h"
 #endif
 
 #ifndef DISTRHO_OS_WINDOWS

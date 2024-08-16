@@ -1,114 +1,148 @@
 /* BOX */
+
 .mod-cloud-box{{{cns}}} {
     border-radius: 20px;
-}
-
-.mod-cloud-box-0500{{{cns}}} {
-    background-image: url(/resources/box/thecloudcondense500x520.png{{{ns}}});
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 520px;
     position: relative;
+    background-image: url(/resources/box/thecloudcondense500x520.png{{{ns}}});
+    height: 520px;
     width: 500px;
+
+    /* CONTROLS */
+    .mod-control-group {
+        border: 1px solid #43d367 0 0;
+        position: absolute;
+        color: #dbdddd;
+        left: 58px;
+        /* right: 60px; */
+        top: 40px;
+
+        > div {
+            margin-right: 0px;
+            margin-left: 8px;
+        }
+
+        .mod-pedal-input,
+        .mod-pedal-output {
+            top: 30px;
+        }
+    }
+
+    /* LIGHT ON/OFF */
+    .mod-light {
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 32px;
+        position: relative;
+        top: 290px;
+    } 
+
+    
+    /* SWITCH ON/OFF */
+    .mod-footswitch {
+        background-image: url(/resources/switches/footswitch.png{{{ns}}});
+        background-size: auto 132px;
+        position: relative;
+        top: 355px;
+        left: 220px;
+        cursor: pointer;
+        height: 66px;
+        width: 66px;
+        z-index: 40;
+
+        &.on {
+            background-position:top center;
+        }
+
+        &.off {
+            background-position:bottom center;
+        }
+    }
+
+    
+
+
+
+
+    /* KNOBS */
+
+    .mod-white-knob {
+        float: left;
+        /* overflow: hidden; */
+        position: relative;
+        text-align: center;
+        height: 105px;
+        width: 85px;
+
+    }
+    .mod-white-knob .mod-white-knob-image {
+        background-image: url(/resources/knobs/NJD_White65px.png{{{ns}}});
+        background-position: left 0px;
+        background-size: auto 85px;
+        /* margin-top: 0px; */
+        /* position: relative; */
+        height: 85px;
+        width: 85px;
+        z-index: 2;
+    }
+
+    .mod-white-knob .mod-white-knob-title {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        /* height:15px; */
+        left: 0;
+        right: 0;
+        /* overflow:hidden; */
+        top: 103px;
+        /* bottom: 100; */
+        z-index: 1;
+    }
 }
-
-/* CONTROLS */
-
-.mod-cloud-box{{{cns}}} .mod-control-group {
-    border: none;
-    /* border-color: #43d367;
-    border-style: solid;
-    border-width: 1px 0 0 0; */
-    /* bottom: 0px; */
-    position: absolute;
-    color: #ffffff;
-    font-size: 10px;
-    font-weight: bold;
-    /* height: 20px; */
-    left: 60px;
-    right: 50px;
-    top: 70px;
-}
-
-.mod-cloud-box{{{cns}}} .mod-control-group > div {
-    margin-right: 0px;
-    margin-left: 8px;
-}
-
-.mod-cloud-box{{{cns}}} .mod-pedal-input,
-.mod-cloud-box{{{cns}}} .mod-pedal-output {
-    top: 30px;
-}
-
-/* = LIGHT ON/OFF */
-
-.mod-cloud-box{{{cns}}} .mod-light {
-    background-position:center center;
-    background-repeat:no-repeat;
-    height:32px;
-    left:10px;
-    position:absolute;
-    right:10px;
-    top:320px;
-}
-
-
-/* SWITCH ON/OFF */
-
-.mod-cloud-box{{{cns}}} .mod-footswitch {
-    background-image:url(/resources/switches/footswitch.png{{{ns}}});
-    background-position:bottom center;
-    background-repeat:no-repeat;
-    background-size:auto 132px;
-    bottom: 95px;
-    top:400px;
-    left: 13px;
-    right: 13px;
-    cursor:pointer;
-    height:66px;
-    width: 66px;
-    margin: auto;
-    position:absolute !important;
-}
-
-.mod-cloud-box{{{cns}}} .mod-footswitch.on {
-    background-position-y: top !important
-}
-
-
-/* KNOBS */
-
-.mod-cloud-box{{{cns}}} .mod-NJD_White {
+/* = TOGGLE
+================================================ */
+.mod-cloud-box{{{cns}}} .mod-toggle {
+    background-image:url(/resources/switches/toggle.png{{{ns}}});
     float: left;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     text-align: center;
-    height: 85px;
-    width: 65px;
+    height: 80px;
+    width: 85px;
+    top: 50px;
+    background-position:bottom center !important;
+
+    &.on {
+        background-position:top center;
+    }
+
+    &.off {
+        background-position:bottom center;
+    }
 }
 
-.mod-cloud-box{{{cns}}} .mod-NJD_White .mod-NJD_White-image {
-    background-image: url(/resources/knobs/NJD_White65px.png{{{ns}}});
-    background-position: left 0px;
-    background-repeat: no-repeat;
-    background-size: auto 65px;
-    margin-top: 17px;
-    position: relative;
-    height: 65px;
-    width: 65px;
-    z-index: 2;
-}
 
-.mod-cloud-box{{{cns}}} .mod-NJD_White .mod-NJD_White-title {
+/* .mod-cloud-box{{{cns}}} .mod-toggle .mod-toggle-image {
+    background-image:url(/resources/switches/toggle.png{{{ns}}});
+    background-position:bottom center !important;
+    background-size: auto 70px;
+    cursor:pointer;
+    width: 48px;
+    height: 70px;
+    top: 30px;
+    left: 30px;
+    transform: rotate(-90deg); 
+} */
+
+.mod-cloud-box{{{cns}}} .mod-toggle .mod-toggle-image-title {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
-    height:18px;
-    left: 0;
-    overflow:hidden;
-    position: absolute;
-    right: 0;
     text-transform: uppercase;
-    top: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 100px;
     z-index: 1;
 }

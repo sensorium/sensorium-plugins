@@ -3,10 +3,10 @@
 #X obj 406 22 cnv 15 90 180 empty empty vgraindel 20 12 1 14 #c47828 #fcfcfc 0;
 #X obj 581 2 inlet~;
 #X obj 681 -2 inlet;
-#X obj 416 157 hsl 64 8 0 1 0 1 empty empty clean<->effect 2 -6 1 8 #d46cd0 #000000 #fcfcfc 2200 1;
+#X obj 416 157 hsl 64 8 0 1 0 1 empty empty clean<->effect 2 -6 1 8 #d46cd0 #000000 #fcfcfc 5700 1;
 #X obj 595 392 outlet~;
-#X obj 416 95 hsl 64 8 10 900 0 1 empty empty avgGrainDuration -2 -6 1 8 #1474a8 #000000 #fcfcfc 5900 1;
-#X obj 417 50 hsl 64 8 1 80 0 1 empty empty grainsPerSec -2 -6 1 8 #14e888 #000000 #fcfcfc 4200 1;
+#X obj 416 95 hsl 64 8 10 900 0 1 empty empty avgGrainDuration -2 -6 1 8 #1474a8 #000000 #fcfcfc 2500 1;
+#X obj 417 50 hsl 64 8 1 80 0 1 empty empty grainsPerSec -2 -6 1 8 #14e888 #000000 #fcfcfc 4100 1;
 #X obj 722 392 outlet~;
 #N canvas 166 512 619 300 choosegrain 0;
 #X obj 74 31 inlet;
@@ -113,7 +113,7 @@
 #X connect 8 0 2 0;
 #X connect 9 0 3 0;
 #X restore 44 96 pd choosegrain;
-#X obj 417 137 hsl 64 8 0 1 0 1 empty empty stereoSpread -2 -6 1 8 #14b86c #000000 #fcfcfc 5890 1;
+#X obj 417 137 hsl 64 8 0 1 0 1 empty empty stereoSpread -2 -6 1 8 #14b86c #000000 #fcfcfc 6300 1;
 #N canvas 225 302 240 260 choosepan 0;
 #X obj 107 22 inlet;
 #X obj 107 44 random 100;
@@ -166,7 +166,7 @@
 #X connect 5 0 6 0;
 #X connect 6 0 1 0;
 #X restore 255 252 pd choosedur;
-#X obj 418 73 hsl 64 8 0 2000 0 1 empty empty maxDelayec -2 -6 1 8 #14b814 #000000 #fcfcfc 3800 1;
+#X obj 418 73 hsl 64 8 0 2000 0 1 empty empty maxDelayec -2 -6 1 8 #14b814 #000000 #fcfcfc 600 1;
 #N canvas 485 290 254 162 choosedelshift 0;
 #X obj 76 11 inlet;
 #X obj 123 67 random 20;
@@ -187,7 +187,7 @@
 #X connect 7 1 1 0;
 #X restore 157 253 pd choosedelshift;
 #X obj 46 116 t f b b b b b;
-#X obj 415 116 hsl 64 8 2 200 1 1 empty empty DelayShiftRange -2 -6 1 8 #9858d0 #000000 #fcfcfc 5400 1;
+#X obj 415 116 hsl 64 8 2 200 1 1 empty empty DelayShiftRange -2 -6 1 8 #9858d0 #000000 #fcfcfc 900 1;
 #X obj 40 319 pack 0 0 0 0 0 0;
 #N canvas 29 442 672 381 choosedels 0;
 #X obj 118 12 inlet;
@@ -253,7 +253,7 @@
 #X connect 28 1 25 0;
 #X connect 29 0 24 1;
 #X restore 62 260 pd choosedels;
-#X obj 416 179 hsl 64 8 0 2000 0 1 empty empty StraightSigDelay -2 -6 1 8 #f07864 #000000 #fcfcfc 0 1;
+#X obj 416 179 hsl 64 8 0 2000 0 1 empty empty StraightSigDelay -2 -6 1 8 #f07864 #000000 #fcfcfc 1300 1;
 #N canvas 0 0 450 258 delayinhere 0;
 #X obj 234 14 inlet~;
 #N canvas 457 84 450 300 del-writer 0;
@@ -412,6 +412,10 @@
 #X text 318 356 mix between straight delayed sound and the catches;
 #X obj 43 70 r density @hv_param 1 80 20;
 #X obj 302 229 r flow @hv_param 50 900 500;
+#X obj 477 27 tgl 15 0 empty empty empty 0 -8 0 8 #fcfcfc #000000 #000000 0 1;
+#X obj 513 98 s grain_env_type;
+#X obj 512 48 s env_type;
+#X obj 514 74 r env_type @hv_param 0 1 0.5;
 #X connect 1 0 20 0;
 #X connect 2 0 8 1;
 #X connect 3 0 55 0;
@@ -474,6 +478,8 @@
 #X connect 61 0 7 0;
 #X connect 64 0 8 0;
 #X connect 65 0 12 1;
+#X connect 66 0 68 0;
+#X connect 69 0 67 0;
 #X coords 0 -1 1 1 100 185 1 400 20;
 #X restore 105 102 pd vgraindel-guts;
 #X obj 247 47 tgl 15 1 empty empty empty 0 -8 0 8 #fcfcfc #000000 #000000 0 1;
