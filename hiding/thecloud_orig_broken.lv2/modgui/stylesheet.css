@@ -1,0 +1,116 @@
+.mod-pedal-cloud{{{cns}}} {
+    border-radius: 20px;
+    position: absolute;
+    background-image: url(/resources/box/thecloudcondense500x520.png{{{ns}}});
+    width: 500px;
+    height: 520px;
+}
+
+/* .mod-pedal-cloud .switch-class {
+    background-image: url(/resources/switches/footswitch.png{{{ns}}});
+    position: absolute;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: auto 132px;
+    cursor: pointer;
+    width: 66px;
+    height: 66px;
+    top: 355px;
+    left: 220px;
+	z-index: 40;
+} */
+
+
+.mod-pedal-cloud .switch-class {
+    background-image: url(/resources/switches/footswitch.png{{{ns}}});
+    background-size: auto 132px;
+    position: relative;
+    top: 355px;
+    left: 220px;
+    cursor: pointer;
+    height: 66px;
+    width: 66px;
+    z-index: 40;
+}
+
+.mod-pedal-cloud .switch-class.on {
+    background-position:top center;
+}
+.mod-pedal-cloud .switch-class.off {
+    background-position:bottom center;
+}
+
+.mod-pedal-cloud .mod-pedal-knob{
+    background-image: url(/resources/knobs/NJD_White65px.png{{{ns}}});
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: auto 85px;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+	position: relative;
+	z-index: 40;
+}
+.mod-pedal-cloud .mod-pedal-knob.density_knob{
+	left: 100px;
+	top: 100px;
+}
+.mod-pedal-cloud .mod-pedal-knob .detune_knob{
+	left: 400px;
+	top: 705px;
+}
+.mod-pedal-cloud .mod-pedal-knob.flow_knob{
+	left: 545px;
+	top: 372px;
+}
+.mod-pedal-cloud .mod-pedal-knob.mix_knob{
+	left: 380px;
+	top: 372px;
+}
+.mod-pedal-cloud .mod-pedal-knob.straight_delay_knob{
+	left: 380px;
+	top: 134px;
+}
+.mod-pedal-cloud .mod-pedal-knob.time_knob{
+	left: 380px;
+	top: 255px;
+}
+.mod-pedal-cloud .mod-pedal-knob.width_knob{
+	left: 63px;
+	top: 255px;
+}
+
+
+.mod-pedal-cloud .mod-pedal-switch {
+    background-image: url(/resources/switches/switch.png{{{ns}}});
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: auto 87px;
+    width: 35px;
+    height: 87px;
+    margin: 0 auto;
+	position: absolute;
+	z-index: 40;
+}
+
+.mod-pedal-cloud .mod-pedal-switch .envelope_switch {
+	left: 24px;
+	top: 33px;
+}
+
+
+/* .mod-pedal-cloud .mod-pedal-slider {
+    background-image: url(/resources/slider.png{{{ns}}});
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: auto 62px;
+    width: 618px;
+    height: 62px;
+    margin: 0 auto;
+	position: absolute;
+	z-index: 40;
+}
+.mod-pedal-cloud .mod-pedal-slider.pitch_slider {
+	left: 26px;
+	top: 472px;
+} */

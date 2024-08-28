@@ -3,10 +3,10 @@
 .mod-pedal-lata{{{cns}}} {
     background-position: 0 0;
     background-repeat:no-repeat;
-    height:523px;
+    height:514px;
     position:absolute;
-    width:520px;
-    border-radius: 20px;
+    width:396px;
+    border-radius: 105px;
 }
 
 /* = PLUGIN'S AUTHOR
@@ -62,7 +62,7 @@
     background-position:bottom center;
     background-repeat:no-repeat;
     background-size:auto 132px;
-    bottom:166px;
+    bottom:66px;
     cursor:pointer;
     height:66px;
     width: 66px;
@@ -89,7 +89,7 @@
 .mod-pedal-lata{{{cns}}}.mod-pink { background-image:url(/resources/pedals/lata/pink.png{{{ns}}}); }
 .mod-pedal-lata{{{cns}}}.mod-atomic { background-image:url(/resources/pedals/lata/atomic.png{{{ns}}}); }
 .mod-pedal-lata{{{cns}}}.mod-cream { background-image:url(/resources/pedals/lata/cream.png{{{ns}}}); }
-.mod-pedal-lata{{{cns}}}.mod-blue { background-image:url(/resources/pedals/TheCloud520x523.png{{{ns}}}); }
+.mod-pedal-lata{{{cns}}}.mod-blue { background-image:url(/resources/pedals/lata/blue.png{{{ns}}}); }
 .mod-pedal-lata{{{cns}}}.mod-che { background-image:url(/resources/pedals/lata/che.png{{{ns}}}); }
 .mod-pedal-lata{{{cns}}}.mod-darkblue { background-image:url(/resources/pedals/lata/darkblue.png{{{ns}}}); }
 .mod-pedal-lata{{{cns}}}.mod-humphreys { background-image:url(/resources/pedals/lata/humphreys.png{{{ns}}}); }
@@ -297,14 +297,14 @@
 }
 
 .mod-pedal-lata{{{cns}}} .mod-control-group .mod-knob .mod-knob-image {
-    background-image:url(/resources/knobs/NJD_White65px.png{{{ns}}});
+    background-image:url(/resources/knobs/lata/lata.png{{{ns}}});
     background-position:left center;
     background-repeat:no-repeat;
-    background-size:auto 95px;
-    height:95px;
+    background-size:auto 79px;
+    height:79px;
     position:relative;
     overflow:hidden;
-    width:95px;
+    width:79px;
 }
 
 .mod-pedal-lata{{{cns}}}.mod-blue .mod-control-group .mod-knob > span.mod-knob-title {

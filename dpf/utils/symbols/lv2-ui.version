@@ -1,4 +1,0 @@
-{
-    global: lv2ui_descriptor;
-    local: *;
-};

@@ -13,7 +13,7 @@
 @prefix spdx:  <http://spdx.org/rdf/terms#> .
 @prefix unit:  <http://lv2plug.in/ns/extensions/units#> .
 
-<urn:hvcc:TheCloud>
+<https://github.com/sensorium/sensorium-plugins>
     a lv2:Plugin, doap:Project ;
 
     lv2:extensionData opts:interface ;
@@ -79,15 +79,6 @@
     [
         a lv2:InputPort, lv2:ControlPort ;
         lv2:index 6 ;
-        lv2:name "env type" ;
-        lv2:symbol "env_type" ;
-        lv2:default 0.5 ;
-        lv2:minimum 0 ;
-        lv2:maximum 1 ;
-    ] ,
-    [
-        a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 7 ;
         lv2:name "flow" ;
         lv2:symbol "flow" ;
         lv2:default 500 ;
@@ -96,7 +87,7 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 8 ;
+        lv2:index 7 ;
         lv2:name "mix" ;
         lv2:symbol "mix" ;
         lv2:default 0.75 ;
@@ -105,8 +96,8 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 9 ;
-        lv2:name "straight delay" ;
+        lv2:index 8 ;
+        lv2:name "input delay" ;
         lv2:symbol "straight_delay" ;
         lv2:default 0 ;
         lv2:minimum 0 ;
@@ -114,7 +105,7 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 10 ;
+        lv2:index 9 ;
         lv2:name "time" ;
         lv2:symbol "time" ;
         lv2:default 1000 ;
@@ -123,22 +114,34 @@
     ] ,
     [
         a lv2:InputPort, lv2:ControlPort ;
-        lv2:index 11 ;
+        lv2:index 10 ;
         lv2:name "width" ;
         lv2:symbol "width" ;
         lv2:default 0.5 ;
         lv2:minimum 0 ;
         lv2:maximum 1 ;
-    ] ;
+    ],
+    [
+        a lv2:InputPort, lv2:ControlPort ;
+        lv2:index 11 ;
+        lv2:name "envelope" ;
+        lv2:symbol "env_type" ;
+        lv2:portProperty lv2:integer, lv2:toggled;
+        lv2:default 0 ;
+        lv2:minimum 0 ;
+        lv2:maximum 1 ;
+    ]  ;
 
-    rdfs:comment "Rename Me" ;
 
-    doap:name "TheCloud" ;
+    rdfs:comment "Testing" ;
+
+    doap:name "thecloud" ;
     doap:license <http://spdx.org/licenses/ISC.html> ;
 
     doap:maintainer [
-        foaf:name "sensoriumio" ;
+        foaf:name "sensorium" ;
     ] ;
 
     lv2:microVersion 1 ;
     lv2:minorVersion 0 .
+

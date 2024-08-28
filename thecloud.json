@@ -1,14 +1,16 @@
 {
     "dpf": {
         "project": true,
-        "description": "The Cloud (another granular delay), from Pd to LV2 plugin",
+        "description": "super simple test patch",
         "maker": "sensorium",
-        "homepage": "",
-        "plugin_uri": "https://github.com/sensorium/sensorium-plugins/source",
-        "version": "0,0,1",
-        "license": "GPL3",
+        "homepage": "https://github.com/sensorium/sensorium-plugins",
+        "plugin_uri": "lv2://sensorium-plugins/lv2/dpf_thecloud_test",
+        "version": "0, 0, 1",
+        "license": "WTFPL",
         "midi_input": 1,
         "midi_output": 0,
-        "plugin_formats": ["lv2_dsp","vst","jack"]
+        "plugin_formats": [
+            "lv2_dsp"
+        ]
     }
 }

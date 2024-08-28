@@ -1,3 +1,0 @@
-[submodule "dgl/src/pugl-upstream"]
-	path = dgl/src/pugl-upstream
-	url = https://github.com/DISTRHO/pugl.git

@@ -1,7 +1,7 @@
 @prefix modgui: <http://moddevices.com/ns/modgui#> .
 @prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
 
-<urn:hvcc:TheCloud>
+<https://github.com/sensorium/sensorium-plugins>
     modgui:gui [
         modgui:resourcesDirectory <modgui> ;
         modgui:iconTemplate <modgui/icon-thecloud.html> ;
@@ -9,7 +9,7 @@
         modgui:screenshot <modgui/screenshot-thecloud.png> ;
         modgui:thumbnail <modgui/thumbnail-thecloud.png> ;
         modgui:brand "sensorium" ;
-        modgui:label "TheCloud" ;
+        modgui:label "thecloud" ;
         modgui:model "lata" ;
         modgui:panel "8-knobs" ;
         modgui:color "blue" ;
@@ -23,27 +23,27 @@
             lv2:name "detune" ;
         ] , [
             lv2:index 2 ;
-            lv2:symbol "env_type" ;
-            lv2:name "env type" ;
-        ] , [
-            lv2:index 3 ;
             lv2:symbol "flow" ;
             lv2:name "flow" ;
         ] , [
-            lv2:index 4 ;
+            lv2:index 3 ;
             lv2:symbol "mix" ;
             lv2:name "mix" ;
         ] , [
-            lv2:index 5 ;
+            lv2:index 4 ;
             lv2:symbol "straight_delay" ;
-            lv2:name "straightdel" ;
+            lv2:name "input delay" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "time" ;
+            lv2:name "time" ;
         ] , [
             lv2:index 6 ;
-            lv2:symbol "time" ;
-            lv2:name "window" ;
-        ] , [
-            lv2:index 7 ;
             lv2:symbol "width" ;
             lv2:name "width" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "env_type" ;
+            lv2:name "envelope" ;
         ] ;
     ] .
