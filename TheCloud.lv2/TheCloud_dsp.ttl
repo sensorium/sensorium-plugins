@@ -131,13 +131,13 @@
         lv2:maximum 1 ;
     ] ;
 
-    rdfs:comment "Rename Me" ;
+    rdfs:comment "A particle delay" ;
 
     doap:name "TheCloud" ;
     doap:license <http://spdx.org/licenses/ISC.html> ;
 
     doap:maintainer [
-        foaf:name "sensoriumio" ;
+        foaf:name "sensorium" ;
     ] ;
 
     lv2:microVersion 1 ;

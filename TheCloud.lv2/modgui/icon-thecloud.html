@@ -1,16 +1,41 @@
-<div class="mod-pedal mod-pedal-lata{{{cns}}} mod-eight-knobs mod-boxy75 mod-{{color}} {{color}}">
+<div class="mod-pedal mod-pedal-cloud{{{cns}}} mod-eight-knobs mod-boxy75 mod-{{color}} {{color}}">
     <div mod-role="drag-handle" class="mod-drag-handle"></div>
     <!-- <div class="mod-plugin-brand"><h1>{{brand}}</h1></div>
     <div class="mod-plugin-name"><h1>{{label}}</h1></div> -->
     <div class="mod-light on" mod-role="bypass-light"></div>
-    <div class="mod-control-group clearfix">
+
+    <!-- TOP ROW KNOBS -->
+    <div class="mod-pedal-knob density_knob" mod-role="input-control-port" mod-port-symbol="density">
+        <span class="density_knob knob_title">density</span>
+    </div>
+    <div class="mod-pedal-knob detune_knob" mod-role="input-control-port" mod-port-symbol="detune">
+        <span class="detune_knob knob_title">detune</span>
+    </div>
+    <div class="mod-pedal-knob flow_knob" mod-role="input-control-port" mod-port-symbol="flow">
+        <span class="flow_knob knob_title">flow</span>
+    </div>
+    <div class="mod-pedal-knob mix_knob" mod-role="input-control-port" mod-port-symbol="mix">
+        <span class="mix_knob knob_title">mix</span>
+    </div>
+    <div class="mod-pedal-knob straight_del_knob" mod-role="input-control-port" mod-port-symbol="straight_delay">
+        <span class="straight_del_knob knob_title_below">straight delay</span>
+    </div>
+    <div class="mod-pedal-knob time_knob" mod-role="input-control-port" mod-port-symbol="time">
+        <span class="time_knob knob_title_below">input window</span>
+    </div>
+    <div class="mod-pedal-knob width_knob" mod-role="input-control-port" mod-port-symbol="width">
+        <span class="width_knob knob_title_below">stereo width</span>
+    </div>
+    <!-- <div class="mod-control-group-row1 clearfix">
         {{#controls}}
         <div class="mod-knob" title="{{comment}}">
             <div class="mod-knob-image" mod-role="input-control-port" mod-port-symbol="{{symbol}}"></div>
             <span class="mod-knob-title">{{name}}</span>
         </div>
         {{/controls}}
-    </div>
+    </div> -->
+
+
    <div class="mod-footswitch" mod-role="bypass"></div>
    <div class="mod-pedal-input">
         {{#effect.ports.audio.input}}
