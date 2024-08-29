@@ -10,8 +10,8 @@
         modgui:thumbnail <modgui/thumbnail-thecloud.png> ;
         modgui:brand "sensorium" ;
         modgui:label "TheCloud" ;
-        modgui:model "lata" ;
-        modgui:panel "8-knobs" ;
+        modgui:model "cloud" ;
+        modgui:panel "custom" ;
         modgui:color "blue" ;
         modgui:port [
             lv2:index 0 ;

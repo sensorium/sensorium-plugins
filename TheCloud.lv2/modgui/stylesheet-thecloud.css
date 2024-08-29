@@ -1,6 +1,7 @@
 /* = CONTAINER
 ================================================ */
-.mod-pedal-cloud{{{cns}}} {
+.mod-pedal-cloud {
+    background-image:url(/resources/pedals/TheCloud520x523.png{{{ns}}});
     background-position: 0 0;
     background-repeat:no-repeat;
     height:523px;
@@ -12,7 +13,7 @@
 /* = PLUGIN'S AUTHOR
 ================================================ */
 /* 
-.mod-pedal-cloud{{{cns}}} .mod-plugin-brand {
+.mod-pedal-cloud .mod-plugin-brand {
     left:30px;
     position:absolute;
     right:30px;
@@ -21,7 +22,7 @@
     top:290px;
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-plugin-brand h1 {
+.mod-pedal-cloud .mod-plugin-brand h1 {
     color:#111;
     font-family:"Nexa";
     font-size:32px;
@@ -30,7 +31,7 @@
 /* = PLUGIN'S NAME
 ================================================ */
 /* 
-.mod-pedal-cloud{{{cns}}} .mod-plugin-name {
+.mod-pedal-cloud .mod-plugin-name {
     left:30px;
     overflow:hidden;
     position:absolute;
@@ -39,7 +40,7 @@
     top:330px;
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-plugin-name h1 {
+.mod-pedal-cloud .mod-plugin-name h1 {
     font-family:"Questrial";
     font-size:24px;
     line-height:1;
@@ -47,7 +48,7 @@
 
 /* = LIGHT ON/OFF
 ================================================ */
-.mod-pedal-cloud{{{cns}}} .mod-light {
+.mod-pedal-cloud .mod-light {
     height:32px;
     left:0;
     margin:0 auto;
@@ -59,7 +60,7 @@
 
 /* = FOOTSWITCH
 ================================================ */
-.mod-pedal-cloud{{{cns}}} .mod-footswitch {
+.mod-pedal-cloud .mod-footswitch {
     background-image:url(/resources/pedals/footswitch.png{{{ns}}});
     background-position:bottom center;
     background-repeat:no-repeat;
@@ -74,210 +75,185 @@
     right:13px;
     z-index:30;
 }
-.mod-pedal-cloud{{{cns}}} .mod-footswitch.on {
+.mod-pedal-cloud .mod-footswitch.on {
     background-position-y: top !important
 }
 
 /* = INPUTS/OUTPUTS
 ================================================ */
-.mod-pedal-cloud{{{cns}}} .mod-pedal-input,
-.mod-pedal-cloud{{{cns}}} .mod-pedal-output {
+.mod-pedal-cloud .mod-pedal-input,
+.mod-pedal-cloud .mod-pedal-output {
     top:80px;
 }
 
 /* = BACKGROUND IMAGES - Colour of the pedal
 /* ================================================ */
 
-/* 
-.mod-pedal-cloud{{{cns}}}.mod-yellow { background-image:url(/resources/pedals/lata/yellow.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-pink { background-image:url(/resources/pedals/lata/pink.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-atomic { background-image:url(/resources/pedals/lata/atomic.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-cream { background-image:url(/resources/pedals/lata/cream.png{{{ns}}}); } */
 
-.mod-pedal-cloud{{{cns}}}.mod-blue { background-image:url(/resources/pedals/TheCloud520x523.png{{{ns}}}); }
+.mod-pedal-cloud.mod-blue { background-image:url(/resources/pedals/TheCloud520x523.png{{{ns}}}); }
 
-/* .mod-pedal-cloud{{{cns}}}.mod-che { background-image:url(/resources/pedals/lata/che.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-darkblue { background-image:url(/resources/pedals/lata/darkblue.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-humphreys { background-image:url(/resources/pedals/lata/humphreys.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-camouflage { background-image:url(/resources/pedals/lata/camouflage.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-black { background-image:url(/resources/pedals/lata/black.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-orange { background-image:url(/resources/pedals/lata/orange.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-white { background-image:url(/resources/pedals/lata/white.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-racing { background-image:url(/resources/pedals/lata/racing.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-red { background-image:url(/resources/pedals/lata/red.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-brown { background-image:url(/resources/pedals/lata/brown.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-star { background-image:url(/resources/pedals/lata/star.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-petrol { background-image:url(/resources/pedals/lata/petrol.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-anonymous { background-image:url(/resources/pedals/lata/anonymous.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-cyan { background-image:url(/resources/pedals/lata/cyan.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-gray { background-image:url(/resources/pedals/lata/gray.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-none { background-image:url(/resources/pedals/lata/none.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-skull { background-image:url(/resources/pedals/lata/skull.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-purple { background-image:url(/resources/pedals/lata/purple.png{{{ns}}}); }
-.mod-pedal-cloud{{{cns}}}.mod-green { background-image:url(/resources/pedals/lata/green.png{{{ns}}}); } */
- */
 
 /* = COLORS - Color of the pedals labels
 ================================================ */
 
-.mod-pedal-cloud{{{cns}}}.mod-humphreys .mod-enumerated
+.mod-pedal-cloud.mod-humphreys .mod-enumerated
 {
     background-image:url(/resources/utils/dropdown-arrow-white.png{{{ns}}});
 }
-.mod-pedal-cloud{{{cns}}}.mod-che .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-darkblue .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-camouflage .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-black .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-racing .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-red .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-brown .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-star .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-petrol .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-none .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-skull .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-purple .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-green .mod-enumerated
+.mod-pedal-cloud.mod-che .mod-enumerated,
+.mod-pedal-cloud.mod-darkblue .mod-enumerated,
+.mod-pedal-cloud.mod-camouflage .mod-enumerated,
+.mod-pedal-cloud.mod-black .mod-enumerated,
+.mod-pedal-cloud.mod-racing .mod-enumerated,
+.mod-pedal-cloud.mod-red .mod-enumerated,
+.mod-pedal-cloud.mod-brown .mod-enumerated,
+.mod-pedal-cloud.mod-star .mod-enumerated,
+.mod-pedal-cloud.mod-petrol .mod-enumerated,
+.mod-pedal-cloud.mod-none .mod-enumerated,
+.mod-pedal-cloud.mod-skull .mod-enumerated,
+.mod-pedal-cloud.mod-purple .mod-enumerated,
+.mod-pedal-cloud.mod-green .mod-enumerated
 {
     background-image:url(/resources/utils/dropdown-arrow-white.png{{{ns}}});
 }
-.mod-pedal-cloud{{{cns}}}.mod-yellow .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-pink .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-cream .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-blue .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-orange .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-white .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-cyan .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-gray .mod-enumerated
+.mod-pedal-cloud.mod-yellow .mod-enumerated,
+.mod-pedal-cloud.mod-pink .mod-enumerated,
+.mod-pedal-cloud.mod-cream .mod-enumerated,
+.mod-pedal-cloud.mod-blue .mod-enumerated,
+.mod-pedal-cloud.mod-orange .mod-enumerated,
+.mod-pedal-cloud.mod-white .mod-enumerated,
+.mod-pedal-cloud.mod-cyan .mod-enumerated,
+.mod-pedal-cloud.mod-gray .mod-enumerated
 {
     background-image:url(/resources/utils/dropdown-arrow-black.png{{{ns}}});
 }
-.mod-pedal-cloud{{{cns}}}.mod-atomic .mod-enumerated
+.mod-pedal-cloud.mod-atomic .mod-enumerated
 {
     background-image:url(/resources/utils/dropdown-arrow-white.png{{{ns}}});
 }
-.mod-pedal-cloud{{{cns}}}.mod-anonymous .mod-enumerated
+.mod-pedal-cloud.mod-anonymous .mod-enumerated
 {
     background-image:url(/resources/utils/dropdown-arrow-black.png{{{ns}}});
 }
-.mod-pedal-cloud{{{cns}}}.mod-humphreys h1,
-.mod-pedal-cloud{{{cns}}}.mod-humphreys .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-humphreys .mod-control-group-row1 .mod-knob > span.mod-knob-title
+.mod-pedal-cloud.mod-humphreys h1,
+.mod-pedal-cloud.mod-humphreys .mod-enumerated,
+.mod-pedal-cloud.mod-humphreys .mod-control-group-row1 .mod-knob > span.mod-knob-title
 {
     color: white;
 }
-.mod-pedal-cloud{{{cns}}}.mod-che h1,
-.mod-pedal-cloud{{{cns}}}.mod-che .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-che .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-darkblue h1,
-.mod-pedal-cloud{{{cns}}}.mod-darkblue .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-darkblue .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-camouflage h1,
-.mod-pedal-cloud{{{cns}}}.mod-camouflage .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-camouflage .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-black h1,
-.mod-pedal-cloud{{{cns}}}.mod-black .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-black .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-racing h1,
-.mod-pedal-cloud{{{cns}}}.mod-racing .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-racing .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-red h1,
-.mod-pedal-cloud{{{cns}}}.mod-red .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-red .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-brown h1,
-.mod-pedal-cloud{{{cns}}}.mod-brown .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-brown .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-star h1,
-.mod-pedal-cloud{{{cns}}}.mod-star .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-star .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-petrol h1,
-.mod-pedal-cloud{{{cns}}}.mod-petrol .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-petrol .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-none h1,
-.mod-pedal-cloud{{{cns}}}.mod-none .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-none .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-skull h1,
-.mod-pedal-cloud{{{cns}}}.mod-skull .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-skull .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-purple h1,
-.mod-pedal-cloud{{{cns}}}.mod-purple .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-purple .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-green h1,
-.mod-pedal-cloud{{{cns}}}.mod-green .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-green .mod-control-group-row1 .mod-knob > span.mod-knob-title
+.mod-pedal-cloud.mod-che h1,
+.mod-pedal-cloud.mod-che .mod-enumerated,
+.mod-pedal-cloud.mod-che .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-darkblue h1,
+.mod-pedal-cloud.mod-darkblue .mod-enumerated,
+.mod-pedal-cloud.mod-darkblue .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-camouflage h1,
+.mod-pedal-cloud.mod-camouflage .mod-enumerated,
+.mod-pedal-cloud.mod-camouflage .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-black h1,
+.mod-pedal-cloud.mod-black .mod-enumerated,
+.mod-pedal-cloud.mod-black .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-racing h1,
+.mod-pedal-cloud.mod-racing .mod-enumerated,
+.mod-pedal-cloud.mod-racing .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-red h1,
+.mod-pedal-cloud.mod-red .mod-enumerated,
+.mod-pedal-cloud.mod-red .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-brown h1,
+.mod-pedal-cloud.mod-brown .mod-enumerated,
+.mod-pedal-cloud.mod-brown .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-star h1,
+.mod-pedal-cloud.mod-star .mod-enumerated,
+.mod-pedal-cloud.mod-star .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-petrol h1,
+.mod-pedal-cloud.mod-petrol .mod-enumerated,
+.mod-pedal-cloud.mod-petrol .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-none h1,
+.mod-pedal-cloud.mod-none .mod-enumerated,
+.mod-pedal-cloud.mod-none .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-skull h1,
+.mod-pedal-cloud.mod-skull .mod-enumerated,
+.mod-pedal-cloud.mod-skull .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-purple h1,
+.mod-pedal-cloud.mod-purple .mod-enumerated,
+.mod-pedal-cloud.mod-purple .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-green h1,
+.mod-pedal-cloud.mod-green .mod-enumerated,
+.mod-pedal-cloud.mod-green .mod-control-group-row1 .mod-knob > span.mod-knob-title
 {
     color:white;
 }
-.mod-pedal-cloud{{{cns}}}.mod-yellow h1,
-.mod-pedal-cloud{{{cns}}}.mod-yellow .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-yellow .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-pink h1,
-.mod-pedal-cloud{{{cns}}}.mod-pink .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-pink .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-cream h1,
-.mod-pedal-cloud{{{cns}}}.mod-cream .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-cream .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-blue h1,
-.mod-pedal-cloud{{{cns}}}.mod-blue .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-blue .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-orange h1,
-.mod-pedal-cloud{{{cns}}}.mod-orange .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-orange .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-white h1,
-.mod-pedal-cloud{{{cns}}}.mod-white .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-white .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-cyan h1,
-.mod-pedal-cloud{{{cns}}}.mod-cyan .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-cyan .mod-control-group-row1 .mod-knob > span.mod-knob-title,
-.mod-pedal-cloud{{{cns}}}.mod-gray h1,
-.mod-pedal-cloud{{{cns}}}.mod-gray .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-gray .mod-control-group-row1 .mod-knob > span.mod-knob-title
+.mod-pedal-cloud.mod-yellow h1,
+.mod-pedal-cloud.mod-yellow .mod-enumerated,
+.mod-pedal-cloud.mod-yellow .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-pink h1,
+.mod-pedal-cloud.mod-pink .mod-enumerated,
+.mod-pedal-cloud.mod-pink .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-cream h1,
+.mod-pedal-cloud.mod-cream .mod-enumerated,
+.mod-pedal-cloud.mod-cream .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-blue h1,
+.mod-pedal-cloud.mod-blue .mod-enumerated,
+.mod-pedal-cloud.mod-blue .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-orange h1,
+.mod-pedal-cloud.mod-orange .mod-enumerated,
+.mod-pedal-cloud.mod-orange .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-white h1,
+.mod-pedal-cloud.mod-white .mod-enumerated,
+.mod-pedal-cloud.mod-white .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-cyan h1,
+.mod-pedal-cloud.mod-cyan .mod-enumerated,
+.mod-pedal-cloud.mod-cyan .mod-control-group-row1 .mod-knob > span.mod-knob-title,
+.mod-pedal-cloud.mod-gray h1,
+.mod-pedal-cloud.mod-gray .mod-enumerated,
+.mod-pedal-cloud.mod-gray .mod-control-group-row1 .mod-knob > span.mod-knob-title
 {
     color:black;
 }
-.mod-pedal-cloud{{{cns}}}.mod-atomic h1,
-.mod-pedal-cloud{{{cns}}}.mod-atomic .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-atomic .mod-control-group-row1 .mod-knob > span.mod-knob-title
+.mod-pedal-cloud.mod-atomic h1,
+.mod-pedal-cloud.mod-atomic .mod-enumerated,
+.mod-pedal-cloud.mod-atomic .mod-control-group-row1 .mod-knob > span.mod-knob-title
 {
     color: white;
 }
-.mod-pedal-cloud{{{cns}}}.mod-anonymous h1,
-.mod-pedal-cloud{{{cns}}}.mod-anonymous .mod-enumerated,
-.mod-pedal-cloud{{{cns}}}.mod-anonymous .mod-control-group-row1 .mod-knob > span.mod-knob-title
+.mod-pedal-cloud.mod-anonymous h1,
+.mod-pedal-cloud.mod-anonymous .mod-enumerated,
+.mod-pedal-cloud.mod-anonymous .mod-control-group-row1 .mod-knob > span.mod-knob-title
 {
     color: #c00;
 }
-.mod-pedal-cloud{{{cns}}}.mod-atomic .mod-control-group-row1 .mod-knob > span.mod-knob-title
+.mod-pedal-cloud.mod-atomic .mod-control-group-row1 .mod-knob > span.mod-knob-title
 {
     background: black;
 }
-.mod-pedal-cloud{{{cns}}}.mod-humphreys h1
+.mod-pedal-cloud.mod-humphreys h1
 {
     border-color:white;
 }
-.mod-pedal-cloud{{{cns}}}.mod-che h1,
-.mod-pedal-cloud{{{cns}}}.mod-darkblue h1,
-.mod-pedal-cloud{{{cns}}}.mod-camouflage h1,
-.mod-pedal-cloud{{{cns}}}.mod-black h1,
-.mod-pedal-cloud{{{cns}}}.mod-racing h1,
-.mod-pedal-cloud{{{cns}}}.mod-red h1,
-.mod-pedal-cloud{{{cns}}}.mod-brown h1,
-.mod-pedal-cloud{{{cns}}}.mod-star h1,
-.mod-pedal-cloud{{{cns}}}.mod-petrol h1,
-.mod-pedal-cloud{{{cns}}}.mod-none h1,
-.mod-pedal-cloud{{{cns}}}.mod-skull h1,
-.mod-pedal-cloud{{{cns}}}.mod-purple h1,
-.mod-pedal-cloud{{{cns}}}.mod-green h1
+.mod-pedal-cloud.mod-che h1,
+.mod-pedal-cloud.mod-darkblue h1,
+.mod-pedal-cloud.mod-camouflage h1,
+.mod-pedal-cloud.mod-black h1,
+.mod-pedal-cloud.mod-racing h1,
+.mod-pedal-cloud.mod-red h1,
+.mod-pedal-cloud.mod-brown h1,
+.mod-pedal-cloud.mod-star h1,
+.mod-pedal-cloud.mod-petrol h1,
+.mod-pedal-cloud.mod-none h1,
+.mod-pedal-cloud.mod-skull h1,
+.mod-pedal-cloud.mod-purple h1,
+.mod-pedal-cloud.mod-green h1
 {
     border-color:white;
 }
-.mod-pedal-cloud{{{cns}}}.mod-yellow h1,
-.mod-pedal-cloud{{{cns}}}.mod-pink h1,
-.mod-pedal-cloud{{{cns}}}.mod-cream h1,
-.mod-pedal-cloud{{{cns}}}.mod-blue h1,
-.mod-pedal-cloud{{{cns}}}.mod-orange h1,
-.mod-pedal-cloud{{{cns}}}.mod-white h1,
-.mod-pedal-cloud{{{cns}}}.mod-cyan h1,
-.mod-pedal-cloud{{{cns}}}.mod-gray h1
+.mod-pedal-cloud.mod-yellow h1,
+.mod-pedal-cloud.mod-pink h1,
+.mod-pedal-cloud.mod-cream h1,
+.mod-pedal-cloud.mod-blue h1,
+.mod-pedal-cloud.mod-orange h1,
+.mod-pedal-cloud.mod-white h1,
+.mod-pedal-cloud.mod-cyan h1,
+.mod-pedal-cloud.mod-gray h1
 {
     border-color:black;
 }
@@ -288,7 +264,7 @@
 ================================================ */
 
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob{
+.mod-pedal-cloud .mod-pedal-knob{
     background-image:url(/resources/knobs/NJD_White65px.png{{{ns}}});
     background-position:left center;
     cursor: pointer;
@@ -304,7 +280,7 @@
     /* top: 200px; */
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob .knob_title {
+.mod-pedal-cloud .mod-pedal-knob .knob_title {
     /* text-align:center; */
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
@@ -322,7 +298,7 @@
     /* display: contents; */  
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob .knob_title_below {
+.mod-pedal-cloud .mod-pedal-knob .knob_title_below {
     /* text-align:center; */
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
@@ -340,43 +316,70 @@
     /* display: contents; */  
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob.density_knob{
+.mod-pedal-cloud .mod-pedal-knob.density_knob{
 	left: 57px;
 	top: 76px;
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob.detune_knob{
+.mod-pedal-cloud .mod-pedal-knob.detune_knob{
 	left: 157px;
 	top: 76px;
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob.flow_knob{
+.mod-pedal-cloud .mod-pedal-knob.flow_knob{
 	left: 257px;
 	top: 76px;
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob.mix_knob{
+.mod-pedal-cloud .mod-pedal-knob.mix_knob{
 	left: 357px;
 	top: 76px;
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob.straight_del_knob{
+.mod-pedal-cloud .mod-pedal-knob.straight_del_knob{
 	left: 107px;
 	top: 156px;
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob.time_knob{
+.mod-pedal-cloud .mod-pedal-knob.time_knob{
 	left: 207px;
 	top: 156px;
 }
 
-.mod-pedal-cloud{{{cns}}} .mod-pedal-knob.width_knob{
+.mod-pedal-cloud .mod-pedal-knob.width_knob{
 	left: 307px;
 	top: 156px;
 }
 
+/* ENV SWITCH */
+.mod-pedal-cloud .mod-switch-slide {
+    background-image: url(/resources/switches/switch_slide3.png{{{ns}}});
+    position: absolute;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 80px auto;
+    margin: 0 auto;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+	z-index: 50;
+}
 
-/* .mod-pedal-cloud{{{cns}}} .mod-knob-density {
+/* .mod-pedal-cloud .mod-switch-slide.on {
+    background-position:center top;
+}
+.mod-pedal-cloud .mod-switch-slide.off {
+    background-position:center bottom;
+} */
+
+.mod-pedal-cloud .mod-switch-slide.env_type_switch{
+	left: 365px;
+	top: 270px;	
+}
+
+
+/* .mod-pedal-cloud .mod-knob-density {
     background-image:url(/resources/knobs/NJD_White65px.png{{{ns}}});
     background-position:left center;
     background-repeat:no-repeat;
@@ -391,7 +394,7 @@
     text-align:center;
     z-index: 30;
 } */
-/* .mod-pedal-cloud{{{cns}}} .mod-knob-detune {
+/* .mod-pedal-cloud .mod-knob-detune {
     background-image:url(/resources/knobs/NJD_White65px.png{{{ns}}});
     background-position:left center;
     background-repeat:no-repeat;
@@ -407,53 +410,53 @@
     z-index: 30;
 } */
 /*
-.mod-pedal-cloud{{{cns}}}.mod-blue .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-blue .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:black;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-brown .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-brown .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:white;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-cream .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-cream .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:black;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-darkblue .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-darkblue .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:white;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-gray .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-gray .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:black;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-green .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-green .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:white;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-orange .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-orange .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:black;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-purple .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-purple .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:white;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-red .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-red .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:black;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-white .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-white .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:black;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-yellow .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud.mod-yellow .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     color:black;
 } */
 
 
 /* 
-.mod-pedal-cloud{{{cns}}} .mod-control-group-row1 .mod-knob > span.mod-knob-title {
+.mod-pedal-cloud .mod-control-group-row1 .mod-knob > span.mod-knob-title {
     bottom:6px;
     display:block;
     font-size:11px;
@@ -469,19 +472,19 @@
     text-transform:uppercase;
 } */
 /* 
-.mod-pedal-cloud{{{cns}}} .mod-control-group-row1 {
+.mod-pedal-cloud .mod-control-group-row1 {
     margin:20px;
     position:relative;
     text-align:center;
     z-index:30;
 } */
 /* 
-.mod-pedal-cloud{{{cns}}}.mod-seven-knobs .mod-control-group-row1,
-.mod-pedal-cloud{{{cns}}}.mod-eight-knobs .mod-control-group-row1 {
+.mod-pedal-cloud.mod-seven-knobs .mod-control-group-row1,
+.mod-pedal-cloud.mod-eight-knobs .mod-control-group-row1 {
     margin:0 6px;
 }
 
-.mod-pedal-cloud{{{cns}}}.mod-seven-knobs .mod-control-group-row1 .mod-knob,
-.mod-pedal-cloud{{{cns}}}.mod-eight-knobs .mod-control-group-row1 .mod-knob {
+.mod-pedal-cloud.mod-seven-knobs .mod-control-group-row1 .mod-knob,
+.mod-pedal-cloud.mod-eight-knobs .mod-control-group-row1 .mod-knob {
     display:inline-block;
 } */
