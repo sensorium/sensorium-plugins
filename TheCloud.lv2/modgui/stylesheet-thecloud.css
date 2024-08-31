@@ -1,6 +1,6 @@
 /* CONTAINER */
 .mod-pedal-cloud {
-    background-image:url(/resources/pedals/TheCloud520x523.png{{{ns}}});
+    background-image:url(/resources/TheCloud520x523b.png{{{ns}}});
     background-position: 0 0;
     background-repeat:no-repeat;
     height:523px;
@@ -22,7 +22,7 @@
 
 /* FOOTSWITCH */
 .mod-pedal-cloud .mod-footswitch {
-    background-image:url(/resources/pedals/footswitch.png{{{ns}}});
+    background-image:url(/resources/footswitch.png{{{ns}}});
     background-position:bottom center;
     background-repeat:no-repeat;
     background-size:auto 132px;
@@ -50,7 +50,7 @@
 /* KNOBS */
 
 .mod-pedal-cloud .mod-pedal-knob{
-    background-image:url(/resources/knobs/NJD_White65px.png{{{ns}}});
+    background-image:url(/resources/NJD_White65px.png{{{ns}}});
     background-position:left center;
     cursor: pointer;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@
 }
 
 
-.mod-pedal-cloud .panel_text {
+.mod-pedal-cloud .panel-text {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
     font-weight: bold;
@@ -73,47 +73,49 @@
     text-transform: uppercase;
 }
 
-.mod-pedal-cloud .panel_text.above_knob{
+.mod-pedal-cloud .panel-text.above-knob{
 	top: -17px;
     color: rgb(239, 240, 240); 
 }
 
-.mod-pedal-cloud .panel_text.below_knob{
+.mod-pedal-cloud .panel-text.below-knob{
 	top: 95px;
     color: rgb(221, 232, 232); 
 }
 
-.mod-pedal-cloud .mod-pedal-knob.density_knob{
+
+/* KNOB POSITIONS */
+.mod-pedal-cloud .mod-pedal-knob.density-knob{
 	left: 57px;
 	top: 76px;
 }
 
-.mod-pedal-cloud .mod-pedal-knob.detune_knob{
+.mod-pedal-cloud .mod-pedal-knob.detune-knob{
 	left: 157px;
 	top: 76px;
 }
 
-.mod-pedal-cloud .mod-pedal-knob.flow_knob{
-	left: 257px;
-	top: 76px;
-}
-
-.mod-pedal-cloud .mod-pedal-knob.mix_knob{
+.mod-pedal-cloud .mod-pedal-knob.flow-knob{
 	left: 357px;
 	top: 76px;
 }
 
-.mod-pedal-cloud .mod-pedal-knob.straight_del_knob{
+.mod-pedal-cloud .mod-pedal-knob.mix-knob{
+    left: 209px;
+	top: 166px;
+}
+
+.mod-pedal-cloud .mod-pedal-knob.straight_del-knob{
 	left: 109px;
 	top: 166px;
 }
 
-.mod-pedal-cloud .mod-pedal-knob.time_knob{
-	left: 209px;
-	top: 166px;
+.mod-pedal-cloud .mod-pedal-knob.time-knob{
+    left: 257px;
+	top: 76px;
 }
 
-.mod-pedal-cloud .mod-pedal-knob.width_knob{
+.mod-pedal-cloud .mod-pedal-knob.width-knob{
 	left: 309px;
 	top: 166px;
 }
@@ -132,17 +134,17 @@
     text-align:center;
 }
 
-.mod-pedal-cloud .panel_text.below_slide_switch {
+.mod-pedal-cloud .panel-text.below-slide-switch {
     top: 72px;
     color: rgb(215, 225, 225);
 }
 
-.mod-pedal-cloud .panel_text.above_slide_switch {
+.mod-pedal-cloud .panel-text.above-slide-switch {
     top: -10px;
     color: rgb(215, 225, 225);
 }
 
-.mod-pedal-cloud .mod-switch-slide.env_type_switch {
-	left: 116px;
-	top: 335px;	
+.mod-pedal-cloud .mod-switch-slide.env-type-switch {
+	left: 218px;
+	top: 325px;	
 }
