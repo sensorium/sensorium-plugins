@@ -142,7 +142,7 @@
     ] ;
 
     doap:name "TheCloud" ;
-	doap:license "GPLv3" ;
+	doap:license "GPL3" ;
 	doap:maintainer [
 		foaf:name "sensorium" ;
 		foaf:homepage <https://github.com/sensorium/sensorium-plugins> ;

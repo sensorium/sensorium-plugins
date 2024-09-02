@@ -6,7 +6,7 @@
         "homepage": "https://github.com/sensorium/sensorium-plugins",
         "plugin_uri": "lv2://sensorium-plugins/TheCloud",
         "version": "0, 0, 1",
-        "license": "WTFPL",
+        "license": "GPL3",
         "midi_input": 1,
         "midi_output": 0,
         "plugin_formats": [
