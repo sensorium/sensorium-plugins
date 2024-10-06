@@ -1,12 +1,12 @@
 /* CONTAINER */
 .mod-pedal-cloud {
-    background-image:url(/resources/TheCloud520x523b.png{{{ns}}});
+    background-image:url(/resources/TheCloud515x515.png{{{ns}}});
     background-position: 0 0;
     background-repeat:no-repeat;
     height:523px;
     position:absolute;
     width:520px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 /* LIGHT ON/OFF */
