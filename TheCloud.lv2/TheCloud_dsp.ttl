@@ -13,7 +13,7 @@
 @prefix spdx:  <http://spdx.org/rdf/terms#> .
 @prefix unit:  <http://lv2plug.in/ns/extensions/units#> .
 
-<urn:hvcc:TheCloud>
+<urn:sensorium-plugins:TheCloud>
     a lv2:Plugin, mod:DelayPlugin, doap:Project ;
 
     lv2:extensionData opts:interface ;
