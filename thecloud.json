@@ -4,13 +4,13 @@
         "description": "Granular delay ported from Pure Data using hvcc",
         "maker": "sensorium",
         "homepage": "https://github.com/sensorium/sensorium-plugins",
-        "plugin_uri": "lv2://sensorium-plugins/TheCloud",
+        "plugin_uri": "urn:sensorium-plugins:TheCloud",
         "version": "0, 0, 1",
         "license": "GPL3",
         "midi_input": 1,
         "midi_output": 0,
         "plugin_formats": [
-            "lv2_dsp"
+            "lv2_sep"
         ]
     }
 }
