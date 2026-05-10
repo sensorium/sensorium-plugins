@@ -6,7 +6,7 @@ You can control how long the echo particles last, how spread out they are in tim
 You can also affect how much the pitches of the echoes deviate within the cloud.
 
 ![
-](TheCloud.lv2/modgui/screenshot-thecloud.png)
+](./TheCloud.lv2/modgui/screenshot-thecloud.png)
 
 The Cloud was created with Pd (Pure Data) and exported to hvcc using PlugData.
 
